@@ -1,4 +1,4 @@
-package examen;
+
 class Empleado {
     private String nombre;
     private String cargo;
