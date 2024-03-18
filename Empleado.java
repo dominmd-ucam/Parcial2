@@ -1,4 +1,4 @@
-
+package examen;
 class Empleado {
     private String nombre;
     private String cargo;
@@ -41,6 +41,10 @@ class Empleado {
 
     public void setSalario(double salario) {
         this.salario = salario;
+    }
+
+    public void aumentarSalario(double porcentaje) {
+        this.salario *= (1 + porcentaje / 100);
     }
 
     
